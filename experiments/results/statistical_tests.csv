@@ -1,0 +1,127 @@
+"dataset","metric","test_type","comparison","statistic","p_value","adjusted_p","n_blocks","n_imputers","ranking"
+"bank","imputation_rmse","friedman_global","all_imputers",NA,9.40777975425651e-11,NA,18,4,"1:missForest | 2:mean_mode | 3:torch_vae | 4:mice"
+"bank","imputation_rmse","wilcoxon_paired","mean_mode vs mice",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","imputation_rmse","wilcoxon_paired","mean_mode vs missForest",NA,0.107100592248172,0.107100592248172,18,4,NA
+"bank","imputation_rmse","wilcoxon_paired","mean_mode vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","imputation_rmse","wilcoxon_paired","mice vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","imputation_rmse","wilcoxon_paired","mice vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","imputation_rmse","wilcoxon_paired","missForest vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","imputation_mae","friedman_global","all_imputers",NA,3.52732439780322e-11,NA,18,4,"1:missForest | 2:mean_mode | 3:torch_vae | 4:mice"
+"bank","imputation_mae","wilcoxon_paired","mean_mode vs mice",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","imputation_mae","wilcoxon_paired","mean_mode vs missForest",NA,0.00035544554613709,0.00128455215507611,18,4,NA
+"bank","imputation_mae","wilcoxon_paired","mean_mode vs torch_vae",NA,0.000300719385520916,0.00128455215507611,18,4,NA
+"bank","imputation_mae","wilcoxon_paired","mice vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","imputation_mae","wilcoxon_paired","mice vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","imputation_mae","wilcoxon_paired","missForest vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","distribution_ks","friedman_global","all_imputers",NA,4.89208550430854e-11,NA,18,4,"1:mice | 2:missForest | 3:torch_vae | 4:mean_mode"
+"bank","distribution_ks","wilcoxon_paired","mean_mode vs mice",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","distribution_ks","wilcoxon_paired","mean_mode vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","distribution_ks","wilcoxon_paired","mean_mode vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","distribution_ks","wilcoxon_paired","mice vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","distribution_ks","wilcoxon_paired","mice vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","distribution_ks","wilcoxon_paired","missForest vs torch_vae",NA,0.0115395549538449,0.0115395549538449,18,4,NA
+"bank","distribution_wasserstein","friedman_global","all_imputers",NA,1.95737390558302e-11,NA,18,4,"1:mice | 2:torch_vae | 3:missForest | 4:mean_mode"
+"bank","distribution_wasserstein","wilcoxon_paired","mean_mode vs mice",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","distribution_wasserstein","wilcoxon_paired","mean_mode vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","distribution_wasserstein","wilcoxon_paired","mean_mode vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","distribution_wasserstein","wilcoxon_paired","mice vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","distribution_wasserstein","wilcoxon_paired","mice vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"bank","distribution_wasserstein","wilcoxon_paired","missForest vs torch_vae",NA,0.000253963219441523,0.00128455215507611,18,4,NA
+"bank","auc","friedman_global","all_imputers",NA,0.0144793462392596,NA,18,4,"1:missForest | 2:torch_vae | 3:mean_mode | 4:mice"
+"bank","auc","wilcoxon_paired","mean_mode vs mice",NA,0.0467895211545023,0.187158084618009,18,4,NA
+"bank","auc","wilcoxon_paired","mean_mode vs missForest",NA,0.206603442668125,0.619810328004375,18,4,NA
+"bank","auc","wilcoxon_paired","mean_mode vs torch_vae",NA,0.360423995448255,0.72084799089651,18,4,NA
+"bank","auc","wilcoxon_paired","mice vs missForest",NA,0.00126976812506266,0.00761860875037597,18,4,NA
+"bank","auc","wilcoxon_paired","mice vs torch_vae",NA,0.00306219875895581,0.015310993794779,18,4,NA
+"bank","auc","wilcoxon_paired","missForest vs torch_vae",NA,0.861707167619045,0.861707167619045,18,4,NA
+"bank","f1","friedman_global","all_imputers",NA,0.058421141971576,NA,18,4,"1:mean_mode | 2:torch_vae | 3:missForest | 4:mice"
+"bank","f1","wilcoxon_paired","mean_mode vs mice",NA,0.0115395549538449,0.0692373297230695,18,4,NA
+"bank","f1","wilcoxon_paired","mean_mode vs missForest",NA,0.0328454473601462,0.147209782825677,18,4,NA
+"bank","f1","wilcoxon_paired","mean_mode vs torch_vae",NA,0.0294419565651354,0.147209782825677,18,4,NA
+"bank","f1","wilcoxon_paired","mice vs missForest",NA,0.433095033362903,0.866190066725806,18,4,NA
+"bank","f1","wilcoxon_paired","mice vs torch_vae",NA,0.191378953258895,0.574136859776683,18,4,NA
+"bank","f1","wilcoxon_paired","missForest vs torch_vae",NA,0.695092793077638,0.866190066725806,18,4,NA
+"housing","imputation_rmse","friedman_global","all_imputers",NA,1.95737390558302e-11,NA,18,4,"1:missForest | 2:mice | 3:torch_vae | 4:mean_mode"
+"housing","imputation_rmse","wilcoxon_paired","mean_mode vs mice",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","imputation_rmse","wilcoxon_paired","mean_mode vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","imputation_rmse","wilcoxon_paired","mean_mode vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","imputation_rmse","wilcoxon_paired","mice vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","imputation_rmse","wilcoxon_paired","mice vs torch_vae",NA,0.000253963219441523,0.00128455215507611,18,4,NA
+"housing","imputation_rmse","wilcoxon_paired","missForest vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","imputation_mae","friedman_global","all_imputers",NA,1.12205996194871e-11,NA,18,4,"1:missForest | 2:mice | 3:torch_vae | 4:mean_mode"
+"housing","imputation_mae","wilcoxon_paired","mean_mode vs mice",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","imputation_mae","wilcoxon_paired","mean_mode vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","imputation_mae","wilcoxon_paired","mean_mode vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","imputation_mae","wilcoxon_paired","mice vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","imputation_mae","wilcoxon_paired","mice vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","imputation_mae","wilcoxon_paired","missForest vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","distribution_ks","friedman_global","all_imputers",NA,3.19760066689263e-11,NA,18,4,"1:mice | 2:missForest | 3:torch_vae | 4:mean_mode"
+"housing","distribution_ks","wilcoxon_paired","mean_mode vs mice",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","distribution_ks","wilcoxon_paired","mean_mode vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","distribution_ks","wilcoxon_paired","mean_mode vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","distribution_ks","wilcoxon_paired","mice vs missForest",NA,0.000419378902039934,0.00128455215507611,18,4,NA
+"housing","distribution_ks","wilcoxon_paired","mice vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","distribution_ks","wilcoxon_paired","missForest vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","distribution_wasserstein","friedman_global","all_imputers",NA,1.53598597534102e-10,NA,18,4,"1:missForest | 2:mice | 3:torch_vae | 4:mean_mode"
+"housing","distribution_wasserstein","wilcoxon_paired","mean_mode vs mice",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","distribution_wasserstein","wilcoxon_paired","mean_mode vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","distribution_wasserstein","wilcoxon_paired","mean_mode vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","distribution_wasserstein","wilcoxon_paired","mice vs missForest",NA,0.571288673599928,0.571288673599928,18,4,NA
+"housing","distribution_wasserstein","wilcoxon_paired","mice vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","distribution_wasserstein","wilcoxon_paired","missForest vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"housing","rmse_model","friedman_global","all_imputers",NA,1.57903220794479e-07,NA,18,4,"1:mice | 2:missForest | 3:torch_vae | 4:mean_mode"
+"housing","rmse_model","wilcoxon_paired","mean_mode vs mice",NA,0.000253963219441523,0.00152377931664914,18,4,NA
+"housing","rmse_model","wilcoxon_paired","mean_mode vs missForest",NA,0.00306219875895581,0.00612439751791162,18,4,NA
+"housing","rmse_model","wilcoxon_paired","mean_mode vs torch_vae",NA,0.00035544554613709,0.00152377931664914,18,4,NA
+"housing","rmse_model","wilcoxon_paired","mice vs missForest",NA,0.000300719385520916,0.00152377931664914,18,4,NA
+"housing","rmse_model","wilcoxon_paired","mice vs torch_vae",NA,0.00058068743960444,0.00174206231881332,18,4,NA
+"housing","rmse_model","wilcoxon_paired","missForest vs torch_vae",NA,0.861707167619045,0.861707167619045,18,4,NA
+"housing","r2","friedman_global","all_imputers",NA,1.57903220794479e-07,NA,18,4,"1:mice | 2:missForest | 3:torch_vae | 4:mean_mode"
+"housing","r2","wilcoxon_paired","mean_mode vs mice",NA,0.000253963219441523,0.00152377931664914,18,4,NA
+"housing","r2","wilcoxon_paired","mean_mode vs missForest",NA,0.00352426922725556,0.00704853845451113,18,4,NA
+"housing","r2","wilcoxon_paired","mean_mode vs torch_vae",NA,0.00035544554613709,0.00152377931664914,18,4,NA
+"housing","r2","wilcoxon_paired","mice vs missForest",NA,0.000300719385520916,0.00152377931664914,18,4,NA
+"housing","r2","wilcoxon_paired","mice vs torch_vae",NA,0.00058068743960444,0.00174206231881332,18,4,NA
+"housing","r2","wilcoxon_paired","missForest vs torch_vae",NA,0.861707167619045,0.861707167619045,18,4,NA
+"wine","imputation_rmse","friedman_global","all_imputers",NA,8.12067731574755e-10,NA,18,4,"1:missForest | 2:torch_vae | 3:mean_mode | 4:mice"
+"wine","imputation_rmse","wilcoxon_paired","mean_mode vs mice",NA,0.163434990101037,0.163434990101037,18,4,NA
+"wine","imputation_rmse","wilcoxon_paired","mean_mode vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","imputation_rmse","wilcoxon_paired","mean_mode vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","imputation_rmse","wilcoxon_paired","mice vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","imputation_rmse","wilcoxon_paired","mice vs torch_vae",NA,0.000681469598885109,0.00136293919777022,18,4,NA
+"wine","imputation_rmse","wilcoxon_paired","missForest vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","imputation_mae","friedman_global","all_imputers",NA,4.51298768632161e-10,NA,18,4,"1:missForest | 2:torch_vae | 3:mice | 4:mean_mode"
+"wine","imputation_mae","wilcoxon_paired","mean_mode vs mice",NA,0.150672042703171,0.150672042703171,18,4,NA
+"wine","imputation_mae","wilcoxon_paired","mean_mode vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","imputation_mae","wilcoxon_paired","mean_mode vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","imputation_mae","wilcoxon_paired","mice vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","imputation_mae","wilcoxon_paired","mice vs torch_vae",NA,0.00897456988845386,0.0179491397769077,18,4,NA
+"wine","imputation_mae","wilcoxon_paired","missForest vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","distribution_ks","friedman_global","all_imputers",NA,4.89208550430854e-11,NA,18,4,"1:mice | 2:missForest | 3:torch_vae | 4:mean_mode"
+"wine","distribution_ks","wilcoxon_paired","mean_mode vs mice",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","distribution_ks","wilcoxon_paired","mean_mode vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","distribution_ks","wilcoxon_paired","mean_mode vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","distribution_ks","wilcoxon_paired","mice vs missForest",NA,0.00126976812506266,0.00128455215507611,18,4,NA
+"wine","distribution_ks","wilcoxon_paired","mice vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","distribution_ks","wilcoxon_paired","missForest vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","distribution_wasserstein","friedman_global","all_imputers",NA,1.95737390558302e-11,NA,18,4,"1:mice | 2:missForest | 3:torch_vae | 4:mean_mode"
+"wine","distribution_wasserstein","wilcoxon_paired","mean_mode vs mice",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","distribution_wasserstein","wilcoxon_paired","mean_mode vs missForest",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","distribution_wasserstein","wilcoxon_paired","mean_mode vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","distribution_wasserstein","wilcoxon_paired","mice vs missForest",NA,0.000681469598885109,0.00128455215507611,18,4,NA
+"wine","distribution_wasserstein","wilcoxon_paired","mice vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","distribution_wasserstein","wilcoxon_paired","missForest vs torch_vae",NA,0.000214092025846018,0.00128455215507611,18,4,NA
+"wine","auc","friedman_global","all_imputers",NA,0.371521138201547,NA,18,4,"1:missForest | 2:mean_mode | 3:torch_vae | 4:mice"
+"wine","auc","wilcoxon_paired","mean_mode vs mice",NA,0.150672042703171,0.753360213515856,18,4,NA
+"wine","auc","wilcoxon_paired","mean_mode vs missForest",NA,0.631900275866177,1,18,4,NA
+"wine","auc","wilcoxon_paired","mean_mode vs torch_vae",NA,0.631900275866177,1,18,4,NA
+"wine","auc","wilcoxon_paired","mice vs missForest",NA,0.0894202463007291,0.536521477804374,18,4,NA
+"wine","auc","wilcoxon_paired","mice vs torch_vae",NA,0.206603442668125,0.826413770672501,18,4,NA
+"wine","auc","wilcoxon_paired","missForest vs torch_vae",NA,0.631900275866177,1,18,4,NA
+"wine","f1","friedman_global","all_imputers",NA,0.97465299832567,NA,18,4,"1:missForest | 2:mean_mode | 3:mice | 4:torch_vae"
+"wine","f1","wilcoxon_paired","mean_mode vs mice",NA,0.930591460030879,1,18,4,NA
+"wine","f1","wilcoxon_paired","mean_mode vs missForest",NA,0.727537666179043,1,18,4,NA
+"wine","f1","wilcoxon_paired","mean_mode vs torch_vae",NA,0.727537666179043,1,18,4,NA
+"wine","f1","wilcoxon_paired","mice vs missForest",NA,1,1,18,4,NA
+"wine","f1","wilcoxon_paired","mice vs torch_vae",NA,0.635941334000006,1,18,4,NA
+"wine","f1","wilcoxon_paired","missForest vs torch_vae",NA,0.663196958194977,1,18,4,NA

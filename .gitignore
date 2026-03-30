@@ -1,0 +1,18 @@
+# R session/user files
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio / IDE
+.Rproj.user/
+.vscode/
+
+# renv local library/cache inside project
+renv/library/
+renv/staging/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+context.md
