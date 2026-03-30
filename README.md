@@ -40,6 +40,17 @@ We used 3 tabular datasets:
 7. Evaluated model performance on clean test data.
 8. Calculated distribution shift metrics and statistical significance tests.
 
+## Setup and run commands (project root)
+1. Install dependencies (and torch backend):
+   - `Rscript install.R`
+2. Run the full experiment pipeline:
+   - `Rscript src/pipeline/run_experiments.R`
+3. Launch the dashboard:
+   - `Rscript -e "shiny::runApp('src/app')"`
+4. Generated outputs:
+   - `experiments/results/benchmark_results.csv`
+   - `experiments/results/statistical_tests.csv`
+
 ## 5) How many experiments were run
 - Total successful runs: 216
 - Failed runs: 0
