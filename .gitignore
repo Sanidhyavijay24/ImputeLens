@@ -16,3 +16,12 @@ renv/staging/
 Thumbs.db
 
 context.md
+
+# Copilot agent/skill customization files
+.github/skills/
+.github/agents/
+*.instructions.md
+*.prompt.md
+*.agent.md
+AGENTS.md
+copilot-instructions.md
